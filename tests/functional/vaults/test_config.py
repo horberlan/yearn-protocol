@@ -1,11 +1,9 @@
 import pytest
-import brownie
-
 from brownie import (
     yVault,
     yWETH,
     yDelegatedVault,
-)
+    )
 
 VAULTS = [yVault, yWETH, yDelegatedVault]
 
